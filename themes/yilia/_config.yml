@@ -6,9 +6,9 @@ menu:
 # SubNav
 subnav:
   github: "https://github.com/Gecko525"
-  weibo: "http://weibo.com/3054257313/profile?topnav=1&wvr=6&is_all=1"
+  #weibo: "http://weibo.com/3054257313/profile?topnav=1&wvr=6&is_all=1"
   #zhihu: "#"
-  qq: "http://wpa.qq.com/msgrd?v=3&uin=1967336545&site=qq&menu=yes"
+  #qq: "http://wpa.qq.com/msgrd?v=3&uin=1967336545&site=qq&menu=yes"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
@@ -37,7 +37,7 @@ show_all_link: '展开全文'
 # 数学公式
 mathjax: false
 # 是否在新窗口打开链接
-open_in_new: false
+open_in_new: true
 
 # 打赏
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
@@ -54,7 +54,7 @@ weixin: /img/dashang.jpg
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /img/favicon.ico
 
 #你的头像url
 avatar: /img/head.jpg
@@ -86,7 +86,7 @@ slider:
 smart_menu:
   innerArchive: '所有文章'
   friends: '友链'
-  aboutme: '关于我'
+  #aboutme: '关于我'
 
 friends:
   阮一峰个人网站: http://www.ruanyifeng.com/home.html
