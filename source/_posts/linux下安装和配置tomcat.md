@@ -1,11 +1,13 @@
 ---
 title: linux下安装和配置tomcat
 date: 2017-09-29 16:31:54
-tags:
+tags: Linux
 ---
 说明：linux系统为centOs 6.4,tomcat版本为 7.0.81，jdk版本为 7
 
 **第一次安装时我用了最新的jdk 9，搞了很长时间都启动不了，最后发现是jdk版本太高。**
+
+<!--more-->
 
 ## 安装JDK ##
 
@@ -13,17 +15,15 @@ tags:
 
     `rpm -ivh jdk-7u80-linux-x64.rpm`
 2. 安装完成后，配置环境变量：
-    
+   
 	`vi /etc/profile`
 
-<!--more-->
-
     在底部添加如下内容：
-
+    
      export JAVA_HOME=/usr/java/jdk1.7.0_80
      export PATH=$PATH:$JAVA_HOME/bin 
      export JAVA_HOME CLASSPATH PATH
-
+    
     wq保存退出
 
 3. 使用以下命令使配置文件生效

@@ -1,7 +1,7 @@
 ---
 title: 如何实现div填充父容器的剩余宽度空间
 date: 2016-04-10 18:45:19
-tags:
+tags: css
 ---
 
 前段时间因项目需要，出现了一个有点棘手的问题，那就是**如何实现div填充父容器的剩余宽度空间**。
@@ -12,8 +12,7 @@ tags:
     <div class="box">
     	<div class="left">固定宽度</div>
     	<div class="right">自动填充宽度</div>
-	</div>
- 
+    </div>
 
 ----------
 
@@ -32,7 +31,7 @@ tags:
         .right{
             height:200px;
             background-color: blue;
-			overflow: hidden;//关键
+    		overflow: hidden;//关键
         }
 
 即左边盒子**左浮float:left**，右边盒子设置**overflow:hidden;**

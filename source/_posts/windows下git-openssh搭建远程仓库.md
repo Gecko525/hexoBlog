@@ -1,9 +1,12 @@
 ---
 title: windows7下git+openssh搭建远程仓库
 date: 2017-12-22 19:53:47
+tags: git
 ---
 ## 1.安装git和openssh ##
 ## 2.配置openssh ##
+
+<!--more-->
 
 > http://blog.51cto.com/leomars/1211702
 
@@ -16,7 +19,6 @@ date: 2017-12-22 19:53:47
 此处会跳转到默认的home>Administrator目录
 
 尝试修改默认home目录失败
-<!--more-->
 ## 3.新建远程仓库 ##
 
 > http://blog.csdn.net/ccf0703/article/details/7578276
@@ -62,7 +64,7 @@ date: 2017-12-22 19:53:47
 生成密钥指令：
 
 	ssh-keygen -t rsa -b 2048
-	
+
 ## 6.待解决问题 ##
- 
+
 1）home目录未改变，所以远程仓库只能放到home>administrator这个文件夹中

@@ -1,9 +1,11 @@
 ---
 title: JavaScript之三大家族（offset/scroll/client） 
 date: 2015-06-01 19:35:57
-tags:
+tags: javascript
 ---
 三大家族都是以DOM元素节点的属性形式存在的，都是为了获取元素节点更多的信息。
+
+<!--more-->
 
 
 ## offset家族
@@ -11,8 +13,6 @@ tags:
 - 只能取值，不能设置值
 - 获取的结果是数值，不是字符
 - 获取的时候不需要style
-
-<!--more-->
 
 ![图解1](http://upload-images.jianshu.io/upload_images/3793508-27a9b36ab2059cbc.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 

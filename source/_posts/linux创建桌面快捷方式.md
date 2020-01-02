@@ -1,15 +1,17 @@
 ---
 title: linux在桌面上创建应用程序快捷方式
 date: 2017-10-09 14:15:30
-tags:
+tags: Linux
 ---
 系统：CentOS 6.4 桌面环境：gnome
 本文以eclipse为例，使用**命令行**创建桌面快捷方式
 
+<!--more-->
+
 桌面快捷方式文件放置于**/usr/share/applications**或者**~/.local/share/applications**处。前一个目录存储的桌面快捷方式每个用户都可以使用，而后一个目录则含有仅仅为特定用户创建的快捷方式。
 
 要为特定程序或命令创建桌面快捷方式，你可以使用任意文本编辑器创建一个**.desktop**文件，然后把它放到**/usr/share/applications**或者**~/.local/share/applications**处。一个典型的**.desktop**文件如下所示。
-<!--more-->
+
 
 ```
 [Desktop Entry]

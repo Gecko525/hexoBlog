@@ -1,7 +1,7 @@
 ---
 title: Navigator is deprecated and has been removed from this package.
 date: 2017-05-09
-tags:
+tags: javascript
 ---
 
 **React-Native** 升级到0.44.0版本后，引用了
