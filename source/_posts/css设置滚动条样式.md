@@ -10,7 +10,7 @@ tags: css
 
 ###### 滚动条图解
 
-![scrollbar1](css设置滚动条样式/scrollbar1.png)
+![scrollbar1](scrollbar1.png)
 
 ###### 参数说明
 
@@ -62,5 +62,5 @@ tags: css
 
 效果如下：
 
-![scrollbar](css设置滚动条样式/scrollbar.png)
+![scrollbar](scrollbar.png)
 
