@@ -1,6 +1,6 @@
 ---
 title: Navigator is deprecated and has been removed from this package.
-date: 2017-05-09
+date: 2017-11-15
 tags: javascript
 ---
 

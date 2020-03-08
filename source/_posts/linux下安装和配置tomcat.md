@@ -1,6 +1,6 @@
 ---
 title: linux下安装和配置tomcat
-date: 2017-09-29 16:31:54
+date: 2017-12-29 16:31:54
 tags: Linux
 ---
 说明：linux系统为centOs 6.4,tomcat版本为 7.0.81，jdk版本为 7
@@ -19,11 +19,11 @@ tags: Linux
 	`vi /etc/profile`
 
     在底部添加如下内容：
-    
+   
      export JAVA_HOME=/usr/java/jdk1.7.0_80
      export PATH=$PATH:$JAVA_HOME/bin 
      export JAVA_HOME CLASSPATH PATH
-    
+   
     wq保存退出
 
 3. 使用以下命令使配置文件生效
