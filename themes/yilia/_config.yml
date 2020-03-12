@@ -60,7 +60,7 @@ favicon: /img/favicon.ico
 avatar: /img/head.jpg
 
 #是否开启分享
-share_jia: true
+share_jia: false
 
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
