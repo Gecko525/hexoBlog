@@ -8,7 +8,7 @@ function getQueryString(name) {
 	if (r != null) return unescape(r[2]); return null; 
 } 
 // 统计用，开发者不需要理会
-/*
+
 if (window.BJ_REPORT) {
 	BJ_REPORT.init({
   		id: 1
@@ -49,7 +49,7 @@ if (window.BJ_REPORT) {
 		}
 	}
 }
-*/
+
 module.exports = {
 	init: function() {}
 }

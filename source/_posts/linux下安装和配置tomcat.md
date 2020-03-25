@@ -2,6 +2,7 @@
 title: linux下安装和配置tomcat
 date: 2017-12-29 16:31:54
 tags: Linux
+typora-root-url: ..
 ---
 说明：linux系统为centOs 6.4,tomcat版本为 7.0.81，jdk版本为 7
 
@@ -50,7 +51,7 @@ tags: Linux
 	`./startup.sh`
 
 4. 在本地浏览器中输入localhost:8080,即可看到默认页面
-![](/images/tomcat.png)
+![tomcat](/images/linux下安装和配置tomcat/tomcat.png)
 
 5. 如果**连接失败**，首先检查是否8080端口被占用
 

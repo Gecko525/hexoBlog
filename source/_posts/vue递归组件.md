@@ -2,6 +2,7 @@
 title: vue递归组件
 date: 2019-01-05
 tags: vue
+typora-root-url: ..
 ---
 
 现有一嵌套结构数据，嵌套层级未知，问如何将数据中所有的name列出？
@@ -69,4 +70,4 @@ export default {
 ```
 
 结果如下
-![result](result.png)
+![result](/images/vue递归组件/result.png)

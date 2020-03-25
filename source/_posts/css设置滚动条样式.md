@@ -2,6 +2,8 @@
 title: css设置滚动条样式
 date: 2019-01-18
 tags: css
+typora-root-url: ..
+
 ---
 
 滚动条可以分为几个部分：滑块、轨道、横竖交界、两端按钮，可通过css修改默认样式
@@ -10,7 +12,7 @@ tags: css
 
 ###### 滚动条图解
 
-![scrollbar1](scrollbar1.png)
+![scrollbar1](/images/css设置滚动条样式/scrollbar1.png)
 
 ###### 参数说明
 
@@ -60,7 +62,5 @@ tags: css
 }
 ```
 
-效果如下：
-
-![scrollbar](scrollbar.png)
+![scrollbar](/images/css设置滚动条样式/scrollbar.png)
 

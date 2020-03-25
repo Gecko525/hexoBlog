@@ -2,6 +2,7 @@
 title: linux在桌面上创建应用程序快捷方式
 date: 2017-10-09 14:15:30
 tags: Linux
+typora-root-url: ..
 ---
 系统：CentOS 6.4 桌面环境：gnome
 本文以eclipse为例，使用**命令行**创建桌面快捷方式
@@ -44,10 +45,10 @@ Categories=Application;                  #分类
 Encoding=UTF-8                           #编码
 ```
 写入时要特别注意，**后面不能有空格**，否则会不识别，出现这种情况：
-![](/images/快捷方式1.png)
+![快捷方式1](/images/linux创建桌面快捷方式/快捷方式1.png)
 
 编辑完，保存后会在**/usr/share/applications**这个文件夹下出现eclipse的图标
-![](/images/快捷方式2.png)
+![快捷方式2](/images/linux创建桌面快捷方式/快捷方式2.png)
 此时双击这个图标就可以启动Eclipse了！
 
 ## 3. 将这个图标拷贝到桌面上##
@@ -56,9 +57,9 @@ Encoding=UTF-8                           #编码
 
 命令中**username**换成你自己的名字
 拷贝完成后可能会出现如下情况：
-![](/images/快捷方式3.png)
+![快捷方式3](/images/linux创建桌面快捷方式/快捷方式3.png)
 双击后弹出提示：
-![](/images/快捷方式4.png)
+![快捷方式4](/images/linux创建桌面快捷方式/快捷方式4.png)
 这是由于权限的问题，所以修改权限
 
 `chmod 777 /home/username/桌面/Eclipse.desktop`
