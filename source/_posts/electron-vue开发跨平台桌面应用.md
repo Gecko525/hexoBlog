@@ -8,6 +8,8 @@ tags: [electron, vue]
 
 Electron是一个使用JavaScript、HTML和CSS构建桌面应用程序的框架。通过将Chromium和Node.js嵌入其二进制文件，Electron允许您维护一个JavaScript代码库，并创建在Windows、macOS和Linux上工作的跨平台应用程序—无需本地开发经验。[Electron 官网](https://www.electronjs.org/docs)
 
+<!-- more -->
+
 ### Electron + Vue
 
 在使用 Electron 进行开发之前，需要安装 [Node.js](https://nodejs.org/en/download/)。
